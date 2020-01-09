@@ -1,4 +1,4 @@
-# steps
+## Shortcuts
 
 * ctrl + alt + -> right desktop
 * crtl + alt + <- left desktop
@@ -7,4 +7,20 @@
 * decrease keyboard repeat delay
 * natural scrolling
 * capslock is esc
+
+## pacman
+
+* tmux
+* vim
+* git
+
+## Firefox
+
+* install 1password to firefox
+* sync firefox
+
+## GitHub
+
 * ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
+* cat ~/.ssh/id_rsa.pub >> github ssh settings
+
