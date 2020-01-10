@@ -4,7 +4,7 @@ set -ex
 
 # switch branch
 BRANCH=$(pacman-mirrors --get-branch)
-if [${BRANCH} = unstable]
+if ${BRANCH} != unstable
 then
     sudo pacman-mirrors --api --set-branch unstable
     sudo pacman-mirrors --fasttrack 5
@@ -19,6 +19,8 @@ sudo pacman -Syu --noconfirm git \
     zsh \
     alacritty \
     go \
+    nodejs \
+    npm \
     yay
 
 # aur
