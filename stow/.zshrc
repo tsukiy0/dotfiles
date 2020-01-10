@@ -6,3 +6,5 @@ antigen theme robbyrussell
 antigen bundle git
 
 antigen apply
+
+export EDITOR=vim
