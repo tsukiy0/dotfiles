@@ -14,6 +14,7 @@
 * tmux (libevent)
 * vim
 * git
+* stow
 * zsh
 * antigen
 * gopro-tools-git
