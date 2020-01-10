@@ -8,21 +8,6 @@
 * natural scrolling
 * capslock is esc
 
-## pacman
-
-* tmux (libevent)
-* vim
-* git
-* stow
-* zsh
-* alacritty
-
-## pamac
-
-* enable AUR
-* antigen
-* gopro-tools-git
-
 ## Firefox
 
 * install 1password to firefox
