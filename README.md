@@ -14,6 +14,8 @@
 * tmux (libevent)
 * vim
 * git
+* zsh
+* antigen
 * gopro-tools-git
 
 ## Firefox
