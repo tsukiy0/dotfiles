@@ -8,4 +8,5 @@ antigen bundle zsh-users/zsh-autosuggestions
 
 antigen apply
 
-export EDITOR=vim
+# bash
+source ${HOME}/.bashrc
