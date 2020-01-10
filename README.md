@@ -8,11 +8,13 @@
 * natural scrolling
 * capslock is esc
 
-## pacman
+## pamac
 
-* tmux
+* enable AUR
+* tmux (libevent)
 * vim
 * git
+* gopro-tools-git
 
 ## Firefox
 
@@ -23,4 +25,3 @@
 
 * ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
 * cat ~/.ssh/id_rsa.pub >> github ssh settings
-
