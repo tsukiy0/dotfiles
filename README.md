@@ -15,13 +15,13 @@
 * git
 * stow
 * zsh
+* alacritty
 
 ## pamac
 
 * enable AUR
 * antigen
 * gopro-tools-git
-
 
 ## Firefox
 
