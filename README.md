@@ -8,16 +8,20 @@
 * natural scrolling
 * capslock is esc
 
-## pamac
+## pacman
 
-* enable AUR
 * tmux (libevent)
 * vim
 * git
 * stow
 * zsh
+
+## pamac
+
+* enable AUR
 * antigen
 * gopro-tools-git
+
 
 ## Firefox
 
