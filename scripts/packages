@@ -17,6 +17,7 @@ sudo pacman -Syu --noconfirm git \
     vim \
     tmux \
     zsh \
+    zip \
     alacritty \
     go \
     nodejs \
