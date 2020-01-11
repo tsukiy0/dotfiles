@@ -19,6 +19,8 @@ sudo pacman -Syu --noconfirm git \
     zsh \
     zip \
     caffeine \
+    docker \
+    docker-compose \
     alacritty \
     go \
     nodejs \
