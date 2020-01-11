@@ -18,6 +18,7 @@ sudo pacman -Syu --noconfirm git \
     tmux \
     zsh \
     zip \
+    caffeine \
     alacritty \
     go \
     nodejs \
