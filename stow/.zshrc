@@ -1,5 +1,5 @@
 # antigen
-source /usr/share/zsh/share/antigen.zsh
+source $(brew --prefix)/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 antigen theme robbyrussell
