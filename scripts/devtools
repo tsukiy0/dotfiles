@@ -4,9 +4,3 @@ set -ex
 
 # node
 sudo npm install -g yarn
-
-# docker
-sudo systemctl start docker.service
-sudo systemctl enable docker.service
-# sudo groupadd docker
-# sudo usermod -aG docker $USER
