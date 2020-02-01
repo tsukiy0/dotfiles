@@ -1,0 +1,18 @@
+tap "homebrew/cask"
+
+brew "stow"
+brew "vim"
+brew "tmux"
+brew "zsh"
+brew "antigen"
+brew "go"
+brew "nvm"
+
+cask "alacritty"
+cask "caffeine"
+cask "spectacle"
+cask "visual-studio-code"
+cask "google-chrome"
+cask "sourcetree"
+cask "docker"
+cask "spotify"
