@@ -2,15 +2,6 @@
 
 set -euxo pipefail
 
-# switch branch
-BRANCH=$(pacman-mirrors --get-branch)
-if ${BRANCH} != unstable
-then
-    sudo pacman-mirrors --api --set-branch unstable
-    sudo pacman-mirrors --fasttrack 5
-    sudo pacman -Syyu --noconfirm
-fi
-
 # pacman
 sudo pacman -Syu --noconfirm git \
     base-devel \
