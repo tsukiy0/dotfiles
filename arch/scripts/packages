@@ -1,6 +1,6 @@
 #! /bin/bash
 
-set -euxo
+set -euxo pipefail
 
 # switch branch
 BRANCH=$(pacman-mirrors --get-branch)
