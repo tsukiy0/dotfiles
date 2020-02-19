@@ -27,7 +27,8 @@ sudo pacman -Syu --noconfirm git \
     go \
     nodejs \
     npm \
-    yay
+    yay \
+    code
 
 # aur
 yay -Syu --noconfirm antigen-git \
