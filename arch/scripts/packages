@@ -25,12 +25,10 @@ sudo pacman -Syu --noconfirm git \
     alacritty \
     chromium \
     go \
-    nodejs \
-    npm \
     yay \
     code
 
 # aur
 yay -Syu --noconfirm antigen-git \
-    gopro-tools-git
-
+    gopro-tools-git \
+    nvm
