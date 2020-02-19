@@ -1,0 +1,6 @@
+#! /bin/bash
+
+set -euxo pipefail
+
+ssh-keygen -t rsa -N "" -f ${HOME}/.ssh/id_rsa
+cat ${HOME}/.ssh/id_rsa.pub
