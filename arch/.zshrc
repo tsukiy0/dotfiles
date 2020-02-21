@@ -5,9 +5,9 @@ antigen use oh-my-zsh
 antigen theme robbyrussell
 antigen bundle git
 antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle vi-mode
 
 antigen apply
 
 # bash
 source ${HOME}/.bashrc
-
