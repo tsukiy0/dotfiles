@@ -17,7 +17,8 @@ sudo pacman -Syu --noconfirm git \
     chromium \
     go \
     yay \
-    code
+    code \
+    aws-cli
 
 # aur
 yay -Syu --noconfirm antigen-git \
