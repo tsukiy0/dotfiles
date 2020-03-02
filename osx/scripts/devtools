@@ -1,6 +1,0 @@
-#!/bin/bash
-
-set -ex
-
-# node
-sudo npm install -g yarn

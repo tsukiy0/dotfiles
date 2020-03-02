@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "8d50e4f892bfd8edc2d6ce30fdc5ef07dccaf607"
+        "revision": "95a94d5cb947bed920427a5878cb820af7082b6f"
       }
     },
     "brew": {
@@ -171,6 +171,12 @@
         "version": "latest",
         "options": {
           "full_name": "spotify"
+        }
+      },
+      "slack": {
+        "version": "4.3.3",
+        "options": {
+          "full_name": "slack"
         }
       }
     }
