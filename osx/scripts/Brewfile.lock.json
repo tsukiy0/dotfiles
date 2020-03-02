@@ -122,7 +122,8 @@
       "nvm": {
         "version": "0.35.2",
         "bottle": false
-      }
+      },
+      "tophat/bar/yvm": null
     },
     "cask": {
       "alacritty": {
