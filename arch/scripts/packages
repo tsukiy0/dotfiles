@@ -19,9 +19,14 @@ sudo pacman -Syu --noconfirm git \
     yay \
     code \
     aws-cli \
-    jdk-openjdk
+    jdk-openjdk \
+    gradle
 
 # aur
 yay -Syu --noconfirm antigen-git \
     gopro-tools-git \
     nvm
+
+# java
+sudo archlinux-java set java-13-openjdk
+
