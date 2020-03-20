@@ -18,7 +18,8 @@ sudo pacman -Syu --noconfirm git \
     go \
     yay \
     code \
-    aws-cli
+    aws-cli \
+    jdk-openjdk
 
 # aur
 yay -Syu --noconfirm antigen-git \
