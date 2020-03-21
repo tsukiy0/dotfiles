@@ -29,4 +29,6 @@ yay -Syu --noconfirm antigen-git \
 
 # java
 sudo archlinux-java set java-13-openjdk
+curl -s "https://get.sdkman.io" | bash
+sdk install micronaut
 

@@ -11,3 +11,4 @@ antigen apply
 
 # bash
 source ${HOME}/.bashrc
+
