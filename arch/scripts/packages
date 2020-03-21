@@ -20,7 +20,8 @@ sudo pacman -Syu --noconfirm git \
     code \
     aws-cli \
     jdk-openjdk \
-    gradle
+    gradle \
+    intellij-idea-community-edition
 
 # aur
 yay -Syu --noconfirm antigen-git \
