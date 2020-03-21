@@ -3,7 +3,7 @@
 set -euxo pipefail
 
 # pacman
-sudo pacman -Syu --noconfirm git \
+sudo pacman -Sy --noconfirm git \
     base-devel \
     stow \
     vim \
@@ -21,7 +21,8 @@ sudo pacman -Syu --noconfirm git \
     aws-cli \
     jdk-openjdk \
     gradle \
-    intellij-idea-community-edition
+    intellij-idea-community-edition \
+    dotnet-sdk
 
 # aur
 yay -Syu --noconfirm antigen-git \
