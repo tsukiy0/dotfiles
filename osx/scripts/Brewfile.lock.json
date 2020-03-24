@@ -149,6 +149,27 @@
             }
           }
         }
+      },
+      "docker-compose": {
+        "version": "1.25.4_1",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/docker-compose-1.25.4_1.catalina.bottle.tar.gz",
+              "sha256": "463bd4a012d5bed971040db53b737bd4c89ae9ee05a14d4d738cf06e9bebd9f9"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/docker-compose-1.25.4_1.mojave.bottle.tar.gz",
+              "sha256": "e3572703ef4cf05000d0eac018b0a01d2d82d7a54941667f2581bfd26e12959f"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/docker-compose-1.25.4_1.high_sierra.bottle.tar.gz",
+              "sha256": "3c74f2f820c364a88e66667a372fa0c5bf06516e8f0e234b70990cc1cf99fd80"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -210,6 +231,12 @@
         "version": "80.0.361.62",
         "options": {
           "full_name": "microsoft-edge"
+        }
+      },
+      "firefox": {
+        "version": "74.0",
+        "options": {
+          "full_name": "firefox"
         }
       }
     }

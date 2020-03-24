@@ -10,6 +10,7 @@ brew "nvm"
 brew "tophat/bar/yvm"
 brew "kubectl"
 brew "jq"
+brew "docker-compose"
 
 cask "alacritty"
 cask "caffeine"
@@ -21,4 +22,4 @@ cask "docker"
 cask "spotify"
 cask "slack"
 cask "microsoft-edge"
-
+cask "firefox" 
