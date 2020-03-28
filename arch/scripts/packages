@@ -17,7 +17,6 @@ sudo pacman -Sy --noconfirm git \
     chromium \
     go \
     yay \
-    code \
     aws-cli \
     jdk-openjdk \
     gradle \
@@ -25,9 +24,10 @@ sudo pacman -Sy --noconfirm git \
     dotnet-sdk
 
 # aur
-yay -Syu --noconfirm antigen-git \
+yay -Sy --noconfirm antigen-git \
     gopro-tools-git \
-    nvm
+    nvm \
+    visual-studio-code-bin
 
 # java
 sudo archlinux-java set java-13-openjdk
