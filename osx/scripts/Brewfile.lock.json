@@ -170,6 +170,27 @@
             }
           }
         }
+      },
+      "awscli": {
+        "version": "2.0.0_1",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.0_1.catalina.bottle.tar.gz",
+              "sha256": "405a9159cf128dae174f7e5ce24f6824e6b656520a916787bf17e2f22ca7bf08"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.0_1.mojave.bottle.tar.gz",
+              "sha256": "31293407962228bf88de5c3e7d387251af8e186a7b4fad5d9fb2f7f5f8f3a80a"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.0_1.high_sierra.bottle.tar.gz",
+              "sha256": "b2f11b2d9871159ad7965dcb20438692027dd4951422860e5f891aa4f09c3bea"
+            }
+          }
+        }
       }
     },
     "cask": {

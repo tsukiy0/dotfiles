@@ -11,6 +11,7 @@ brew "tophat/bar/yvm"
 brew "kubectl"
 brew "jq"
 brew "docker-compose"
+brew "awscli"
 
 cask "alacritty"
 cask "caffeine"
