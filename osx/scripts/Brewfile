@@ -12,6 +12,7 @@ brew "kubectl"
 brew "jq"
 brew "docker-compose"
 brew "awscli"
+brew "ffmpeg"
 
 cask "alacritty"
 cask "caffeine"
@@ -24,3 +25,5 @@ cask "spotify"
 cask "slack"
 cask "microsoft-edge"
 cask "firefox" 
+cask "dotnet-sdk"
+
