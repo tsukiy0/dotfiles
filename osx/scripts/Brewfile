@@ -26,4 +26,5 @@ cask "slack"
 cask "microsoft-edge"
 cask "firefox" 
 cask "dotnet-sdk"
-
+cask "vmware-fusion"
+cask "virtualbox"
