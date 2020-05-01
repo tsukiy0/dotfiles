@@ -212,6 +212,27 @@
             }
           }
         }
+      },
+      "ansible": {
+        "version": "2.9.6_2",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/ansible-2.9.6_2.catalina.bottle.tar.gz",
+              "sha256": "86d918ef1997025c4cb193d39104806b369c483ea3ad513545cc2ba7dfc8168f"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/ansible-2.9.6_2.mojave.bottle.tar.gz",
+              "sha256": "150245afed1b56f98f2a6c7fa4497a37f3f773f5a63a7fe98e44505f5adb6f5a"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/ansible-2.9.6_2.high_sierra.bottle.tar.gz",
+              "sha256": "f9d2f6aa389f5018a7d7be03dd4411d35e5716f8ffb12a5c448a4df20553d4c1"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -297,6 +318,12 @@
         "version": "6.1.6,137129",
         "options": {
           "full_name": "virtualbox"
+        }
+      },
+      "vagrant": {
+        "version": "2.2.7",
+        "options": {
+          "full_name": "vagrant"
         }
       }
     }
