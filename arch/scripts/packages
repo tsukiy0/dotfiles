@@ -23,7 +23,8 @@ sudo pacman -Sy --noconfirm git \
     intellij-idea-community-edition \
     dotnet-sdk \
     vlc \
-    krita
+    krita \
+    sqlitebrowser
 
 # aur
 yay -Sy --noconfirm antigen-git \
