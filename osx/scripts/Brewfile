@@ -14,6 +14,7 @@ brew "docker-compose"
 brew "awscli"
 brew "ffmpeg"
 brew "ansible"
+brew "git-lfs"
 
 cask "alacritty"
 cask "caffeine"
