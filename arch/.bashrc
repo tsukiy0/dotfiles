@@ -1,6 +1,9 @@
 export EDITOR=vim
 export TERM=xterm-256color
 
+# setup
+${HOME}/scripts/setup
+
 # nvm
 source /usr/share/nvm/init-nvm.sh
 
