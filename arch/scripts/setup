@@ -1,0 +1,9 @@
+#! /bin/bash
+
+set -euxo pipefail
+
+# two finger right click
+dconf write /org/gnome/desktop/peripherals/touchpad/click-method "'fingers'"
+
+# key delay/repeat
+xset r rate 200 50
