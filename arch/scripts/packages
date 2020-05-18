@@ -31,5 +31,6 @@ yay -Sy --noconfirm antigen-git \
     gopro-tools-git \
     nvm \
     visual-studio-code-bin \
-    surfshark-vpn
+    surfshark-vpn \
+    spotify
 
