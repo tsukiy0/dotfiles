@@ -7,3 +7,6 @@ dconf write /org/gnome/desktop/peripherals/touchpad/click-method "'fingers'"
 
 # key delay/repeat
 xset r rate 200 50
+
+# map capslock as extra escape
+setxkbmap -option caps:escape
