@@ -10,7 +10,3 @@ xset r rate 200 50
 
 # map capslock as extra escape
 setxkbmap -option caps:escape
-
-# fix apple keyboard fn keys
-echo "options hid_apple fnmode=2" | sudo tee /etc/modprobe.d/hid_apple.conf
-
