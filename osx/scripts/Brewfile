@@ -31,3 +31,8 @@ cask "dotnet-sdk"
 cask "vmware-fusion"
 cask "virtualbox"
 cask "vagrant"
+cask "zwift"
+cask "keycastr"
+cask "discord"
+cask "steam"
+
