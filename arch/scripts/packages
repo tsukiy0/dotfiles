@@ -24,7 +24,8 @@ sudo pacman -Sy --noconfirm git \
     dotnet-sdk \
     vlc \
     krita \
-    sqlitebrowser
+    sqlitebrowser \
+    discord
 
 # aur
 yay -Sy --noconfirm antigen-git \
@@ -32,5 +33,6 @@ yay -Sy --noconfirm antigen-git \
     nvm \
     visual-studio-code-bin \
     surfshark-vpn \
-    spotify
+    spotify \
+    postman-bin
 
