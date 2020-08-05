@@ -4,4 +4,5 @@ choco install -y `
     discord `
     caffeine `
     vlc `
-    docker-desktop
+    docker-desktop `
+    powertoys
