@@ -5,4 +5,6 @@ choco install -y `
     caffeine `
     vlc `
     docker-desktop `
-    powertoys
+    powertoys `
+    spotify `
+    virtualbox
