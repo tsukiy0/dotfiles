@@ -17,7 +17,8 @@ sudo apt install -y \
     chromium-browser \
     gnome-tweak-tool \
     caffeine \
-    vlc
+    vlc \
+    docker-compose
 
 sudo snap install --classic code
 sudo snap install discord
