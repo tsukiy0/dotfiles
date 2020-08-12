@@ -20,6 +20,8 @@ sudo apt install -y \
     vlc
 
 sudo snap install --classic code
+sudo snap install discord
+sudo snap install spotify
 
 # nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
