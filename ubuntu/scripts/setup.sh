@@ -18,7 +18,8 @@ sudo apt install -y \
     gnome-tweak-tool \
     caffeine \
     vlc \
-    docker-compose
+    docker-compose \
+    build-essential
 
 sudo snap install --classic code
 sudo snap install discord
