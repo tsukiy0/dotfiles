@@ -17,7 +17,8 @@ sudo apt install -y \
     gnome-tweak-tool \
     caffeine \
     vlc \
-    build-essential
+    build-essential \
+    awscli
 
 function install_dotnet() {
     if ! command -v dotnet &> /dev/null
