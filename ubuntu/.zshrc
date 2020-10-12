@@ -1,5 +1,9 @@
 # antigen
-source ${HOME}/antigen.zsh
+ANTIGEN_PATH=${HOME}/antigen.zsh
+if ! [ -f $ANTIGEN_PATH ]; then
+    curl -L git.io/antigen > $ANTIGEN_PATH
+fi
+source $ANTIGEN_PATH
 
 antigen use oh-my-zsh
 antigen theme robbyrussell
