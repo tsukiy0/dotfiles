@@ -1,6 +1,0 @@
-#! /bin/bash
-
-set -euxo pipefail
-
-stow arch -t $HOME --adopt
-stow common -t $HOME --adopt
