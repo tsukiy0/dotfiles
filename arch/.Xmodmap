@@ -1,4 +1,0 @@
-! map capslock to esc
-! https://vim.fandom.com/wiki/Map_caps_lock_to_escape_in_XWindows
-clear Lock
-keycode 0x42 = Escape

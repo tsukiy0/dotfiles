@@ -1,7 +1,0 @@
-#! /bin/bash
-
-set -euxo pipefail
-
-
-# fix apple keyboard fn keys
-echo "options hid_apple fnmode=2" | sudo tee /etc/modprobe.d/hid_apple.conf
