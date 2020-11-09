@@ -57,5 +57,8 @@ sudo snap install spotify
 # nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
+# jabba
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash -s -- --skip-rc && . ~/.jabba/jabba.sh
+
 # zsh
 sudo chsh -s $(which zsh)
