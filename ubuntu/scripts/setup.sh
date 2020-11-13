@@ -31,7 +31,8 @@ function install_dotnet() {
 
         sudo apt update
         sudo apt install -y \
-            dotnet-sdk-3.1
+            dotnet-sdk-3.1 \
+            dotnet-sdk-5.0
     fi
 }
 
