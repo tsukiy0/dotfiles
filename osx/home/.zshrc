@@ -1,16 +1,15 @@
 # antigen
+
 source $(brew --prefix)/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 antigen theme robbyrussell
 antigen bundle git
-antigen bundle vi-mode
 antigen bundle zsh-users/zsh-autosuggestions
 
 antigen apply
 
-# bash
-source ${HOME}/.bashrc
+# general
 
-export YVM_DIR=/usr/local/opt/yvm
-[ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
+bindkey -v # vi bindings
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false # enable key repeat in some apps
