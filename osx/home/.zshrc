@@ -12,6 +12,7 @@ antigen apply
 # general
 
 bindkey -v # vi bindings
+bindkey '^R' history-incremental-search-backward # rebind reverse search
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false # enable key repeat in some apps
 
 # nvm
