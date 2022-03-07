@@ -7,3 +7,7 @@ chsh -s $(which zsh)
 
 # install gvm (go version manager)
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+
+# jabba
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
+jabba install zulu@1.8.282 # 1.8

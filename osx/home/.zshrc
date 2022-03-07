@@ -24,3 +24,7 @@ export NVM_DIR="$HOME/.nvm"
 # gvm
 
 source ${HOME}/.gvm/scripts/gvm
+
+# jabba
+[ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh"
+export JAVA_HOME=$HOME/.jabba/jdk/zulu@1.8.282/Contents/Home
