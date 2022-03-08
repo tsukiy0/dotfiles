@@ -14,3 +14,7 @@ choco install -y dbeaver
 choco install -y slack
 choco install -y postman
 choco install -y via
+
+choco install -y superslicer
+choco install -y lycheeslicer
+choco install -y uvtools
