@@ -18,3 +18,4 @@ choco install -y via
 choco install -y superslicer
 choco install -y lycheeslicer
 choco install -y uvtools
+choco install -y blender
